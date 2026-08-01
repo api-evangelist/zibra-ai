@@ -1,7 +1,27 @@
 aid: zibra-ai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/zibra-ai.png
 name: Zibra AI
-description: Zibra AI is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Zibra AI is a Ukrainian deep-tech company building AI-powered real-time
+  volumetric rendering and compression technology for VFX, gaming, virtual production,
+  film, and TV. Its flagship product, ZibraVDB, compresses OpenVDB volumetric datasets
+  to roughly five percent of their original size while preserving visual quality,
+  enabling real-time playback of smoke, fire, fog, and other volumetric effects. Zibra
+  ships a native C++ ZibraVDB SDK (DirectX 12, Vulkan, and Metal on Windows, Linux,
+  and macOS) alongside plugins for Unreal Engine, Houdini, and Unity, with Blender
+  support in progress. It exposes no public REST/HTTP API; integration is through the
+  SDK and digital-content-creation plugins. Surfaced as an a16z portfolio company and
+  added to the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/zibra-ai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,52 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Volumetric
+- VFX
+- 3D Graphics
+- Game Development
+- Real-Time Rendering
+- Compression
+- SDK
+- OpenVDB
+- Unreal Engine
+- Houdini
 apis: []
+common:
+- type: DomainSecurity
+  url: security/zibra-ai-domain-security.yml
+- type: Website
+  url: https://zibra.ai
+- type: Documentation
+  url: https://zibra.notion.site/ZibraVDB-Documentation-4cb92e96487f4f31893469eb407ba097
+- type: Blog
+  url: https://zibra.ai/blog
+- type: Pricing
+  url: https://zibra.ai/#pricing
+- type: Support
+  url: https://zibra.ai/get-help
+- type: TermsOfService
+  url: https://zibra.ai/tos
+- type: PrivacyPolicy
+  url: https://zibra.ai/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/ZibraAI
+- type: Packages
+  url: packages/zibra-ai-packages.yml
+- type: SDKs
+  url: packages/zibra-ai-packages.yml
+- type: LLMsTxt
+  url: llms/zibra-ai-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1

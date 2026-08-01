@@ -1,0 +1,27 @@
+# Zibra AI
+
+> Zibra AI is a Ukrainian deep-tech company building AI-powered real-time volumetric rendering and compression technology for VFX, gaming, virtual production, film, and TV. Its flagship product, ZibraVDB, compresses OpenVDB volumetric datasets to roughly five percent of their original size while preserving visual quality, enabling real-time playback of smoke, fire, fog, and other volumetric effects. Integration is through a native C++ SDK and digital-content-creation plugins (Unreal Engine, Houdini, Unity); there is no public REST/HTTP API.
+
+## Products
+- [ZibraVDB](https://zibra.ai): Real-time volumetric (OpenVDB) compression and decompression — smoke, fire, fog effects
+- [Zibra Effects / Liquid / Smoke & Fire](https://zibra.ai): Real-time simulation products for Unity
+- [ZibraGDS](https://zibra.ai/blog): Real-time geometry for Unreal Engine
+
+## SDK & Integrations
+- [ZibraVDB SDK (C++)](https://zibra.ai/zibravdb-sdk): Native compressor/decompressor — DirectX 12, Vulkan, Metal on Windows, Linux, macOS (Studio tier)
+- [ZibraVDBForHoudini (GitHub, MIT)](https://github.com/ZibraAI/ZibraVDBForHoudini): Open-source Houdini plugin framework
+- [Unreal Engine plugin](https://zibra.ai/get-help): Distributed via the Fab marketplace
+- Houdini: available in SideFX Labs; Blender support in progress
+
+## Docs
+- [ZibraVDB Documentation (Notion)](https://zibra.notion.site/ZibraVDB-Documentation-4cb92e96487f4f31893469eb407ba097)
+- [Get Help / Support](https://zibra.ai/get-help)
+- [Blog](https://zibra.ai/blog)
+
+## Company
+- [Website](https://zibra.ai)
+- [Pricing (Personal free / Studio custom)](https://zibra.ai/#pricing)
+- [GitHub Organization](https://github.com/ZibraAI)
+- [Discord Community](https://discord.com/invite/fVTSXhRPCY)
+- [Terms of Service](https://zibra.ai/tos)
+- [Privacy Policy](https://zibra.ai/privacy-policy)

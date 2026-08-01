@@ -1,0 +1,43 @@
+generated: '2026-07-21'
+method: searched
+source: https://github.com/ZibraAI ; https://zibra.ai/zibravdb-sdk
+note: >-
+  Zibra AI ships native/DCC-plugin distributions rather than public
+  package-registry client libraries (no npm/PyPI/Maven/NuGet packages found).
+  The ZibraVDB compression/decompression core is proprietary; the Houdini
+  plugin framework is published open-source under MIT.
+packages:
+  - language: cpp
+    registry: github
+    name: ZibraVDBForHoudini
+    url: https://github.com/ZibraAI/ZibraVDBForHoudini
+    install: git clone https://github.com/ZibraAI/ZibraVDBForHoudini
+    license: MIT
+    latest: v1.4.0.0
+    official: true
+    description: >-
+      Open-source Houdini plugin framework for ZibraVDB volumetric
+      compression/decompression with Solaris/USD integration (C++; proprietary
+      compression core not included). 41 releases.
+  - language: cpp
+    registry: vendor
+    name: ZibraVDB SDK
+    url: https://zibra.ai/zibravdb-sdk
+    install: request access (Studio tier)
+    official: true
+    distribution: request-access
+    platforms: [windows, linux, macos]
+    graphics_apis: [directx12, vulkan, metal]
+    description: >-
+      Native C++ ZibraVDB compressor and real-time decompressor with sample
+      C++ integration; format-agnostic volumetric I/O. Included with the Studio
+      license tier.
+  - language: cpp
+    registry: fab
+    name: ZibraVDB for Unreal Engine
+    url: https://zibra.ai/get-help
+    install: install via Fab marketplace (Unreal Engine plugin)
+    official: true
+    description: >-
+      ZibraVDB plugin for Unreal Engine (real-time volumetric decompression and
+      rendering), distributed through the Fab marketplace.
