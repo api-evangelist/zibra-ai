@@ -6,9 +6,10 @@
       "feed_url": "https://zibra.notion.site/ZibraVDB-Documentation-4cb92e96487f4f31893469eb407ba097",
       "title": "",
       "saved": 0,
-      "method": "none"
+      "method": "none",
+      "error": "parse_failed"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-08-06T14:08:46Z"
+  "fetched": "2026-08-15T12:11:08Z"
 }
